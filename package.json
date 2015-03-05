@@ -1,0 +1,45 @@
+{
+  "name": "spaghetty",
+  "version": "0.0.0",
+  "description": "the spaghetty's command line interface",
+  "main": "lib/main",
+  "bin": "bin/spaghetty",
+  "dependencies": {
+    "a-cli-domain": "",
+    "a-cli-bin": "",
+    "spaghetty-init": "",
+    "spaghetty-install": "",
+    "spaghetty-github": "",
+    "spaghetty-gitcrypt": "",
+    "spaghetty-rename": "",
+    "spaghetty-browserify": ""
+  },
+  "devDependencies": {
+    "kosher": ""
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register ./spec"
+  },
+  "cli": {
+    "rc": "./../../.spaghettyrc",
+    "commands": {
+      "spaghetty-install": true,
+      "spaghetty-init": true,
+      "spaghetty-github": true,
+      "spaghetty-gitcrypt": true,
+      "spaghetty-rename": true,
+      "spaghetty-browserify": true
+    }
+  },
+  "keywords": [
+    "spaghetty"
+  ],
+  "homepage": "https://github.com/joaoafrmartins/spaghetty",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaoafrmartins/spaghetty.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joaoafrmartins/spaghetty/issues"
+  }
+}

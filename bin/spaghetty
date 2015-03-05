@@ -1,0 +1,5 @@
+#!/usr/bin/env coffee
+
+path = require 'path'
+
+require('a-cli-bin') __dirname
