@@ -12,7 +12,8 @@
     "spaghetty-github": "",
     "spaghetty-gitcrypt": "",
     "spaghetty-rename": "",
-    "spaghetty-browserify": ""
+    "spaghetty-browserify": "",
+    "spaghetty-copy": ""
   },
   "devDependencies": {
     "kosher": ""
@@ -28,7 +29,8 @@
       "spaghetty-github": true,
       "spaghetty-gitcrypt": true,
       "spaghetty-rename": true,
-      "spaghetty-browserify": true
+      "spaghetty-browserify": true,
+      "spaghetty-copy": true
     }
   },
   "keywords": [
@@ -41,5 +43,6 @@
   },
   "bugs": {
     "url": "https://github.com/joaoafrmartins/spaghetty/issues"
-  }
+  },
+  "license": "MIT"
 }
